@@ -3,7 +3,7 @@ A REST API for shortening URLs
 
 ## Requirements
 
-* MySQL instance
+* MySQL instance with database named 'shrtr' (or whatever you choose)
 
 ## Installation
 
