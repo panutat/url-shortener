@@ -14,7 +14,8 @@ npm install
 ```
 ## Configuration
 
-Update with your own MySQL credentials in /config/development.json
+Update /config/development.json with your own MySQL credentials.
+Set 'cleanupAfterRestart' to false if persistence between API server restart is desired.
 
 ```json
 {
