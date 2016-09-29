@@ -2,6 +2,10 @@
   "name": "shrtr",
   "version": "1.0.0",
   "description": "URL shortener",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/panutat/url-shortener.git"
+  },
   "main": "server.js",
   "scripts": {
     "lint": "eslint app",
