@@ -1,0 +1,22 @@
+{
+    "server": {
+        "host": "http://localhost",
+        "port": 3000
+    },
+    "db": {
+        "host": "127.0.0.1",
+        "user": "root",
+        "password": "root",
+        "database": "shrtr",
+        "cleanupAfterRestart": true,
+        "initialAutoIncrement": 11111111
+    },
+    "test": {
+        "cleanup": true,
+        "urls": {
+            "desktop": "http://www.google.com?target=desktop",
+            "mobile": "http://www.google.com?target=mobile",
+            "tablet": "http://www.google.com?target=tablet"
+        }
+    }
+}

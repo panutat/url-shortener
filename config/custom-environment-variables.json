@@ -1,0 +1,7 @@
+{
+    "db": {
+        "host": "PROD_DB_HOST",
+        "user": "PROD_DB_USER",
+        "password": "PROD_DB_ROOT"
+    }
+}

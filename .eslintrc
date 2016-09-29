@@ -1,0 +1,15 @@
+{
+    "env": {
+        "node": true,
+        "mocha": true,
+    },
+    "extends": "airbnb",
+    "rules": {
+        "indent": ["error", 4],
+        "react/require-extension": "off",
+        "no-bitwise": "off",
+        "no-console": "off",
+        "camelcase": "off",
+        "new-cap": [2, { "capIsNewExceptions": ["Router"] }]
+    },
+}
